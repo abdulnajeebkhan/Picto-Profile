@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+h1{
+    font-size: 50px !important;
+}
+.text-purple{
+    color: #A53CFD;
+}
+.bg-purple{
+    background-color: #A53CFD;
+}
+ul > li:hover{
+    background-color: #74747436;
+} 
+li:hover ~ a{
+    color: #A53CFD;
+}
+ul li{
+    padding: 4px;
+    font-size: 18px;
+}
+.heroBtn{
+    background-color:#9937e9 !important;
+    font-size: 18px !important;
+    padding: 0px 20px !important;
+}
+.more{
+    width: 12rem !important;
+}
+.heroBtn:hover{
+    background-color: #8231c4 !important;
+}
+.bg-highlight {
+    background: linear-gradient(to top, #ffc8c8 40%, transparent 40%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.padding{
+    padding: 10rem 0px !important;
+}
+.padding-top{
+    padding-top: 10rem;
+}
+.margin-top{
+    margin-top: 10rem !important;
+}
+.content-1{
+    background-color: #F6EBFE;
+    width: 33% !important;
+    padding: 10px 0px !important;
+}
+.anime:hover{
+    color: #A53CFD !important;
+    border: 1px solid #A53CFD !important;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.three-box:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 10px;
+}
+.bg-light-purple{
+    background-color: #a63cfd2d;
+}
+.three-box:hover .box-i{
+    background-color: #A53CFD;
+    color: #fff;
+}
+.dark-blue{
+    background-color: #101828;
+}
+.white-shade{
+    background-color: #F0F1F3;
+}
+.all-inp input{
+    display: block;
+    outline: #A53CFD !important;
+    border-bottom: 1px solid #999 !important;
+}
+.all-icon i{
+    padding: 7px 12px;
+}
+.all-icon i:hover{
+    background-color: #A53CFD;
+    color: #fff;
+}
+footer{
+    background-color: #293649;
+    transform: translate(-50%, -50%);
+}
+.menu{
+    display: none;
+}
+.marquee-container {
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    .marquee-track {
+      display: inline-block;
+      animation: scroll-left 20s linear infinite;
+    }
+
+    @keyframes scroll-left {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }

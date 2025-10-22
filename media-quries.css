@@ -1,0 +1,103 @@
+@media only screen and (min-width: 678px) and (max-width: 992px) {
+    .padding {
+        padding: 5rem 0px !important;
+    }
+
+    .padding-top {
+        padding-top: 5rem !important;
+    }
+
+    .margin-top {
+        margin-top: 5rem !important;
+    }
+
+    .sec-7 {
+        padding: 0px 0px !important;
+    }
+
+    .marquee {
+        overflow-x: hidden;
+    }
+    .sec-5-h1{
+        font-size: 2.30rem !important;
+    }
+
+    .br br {
+        display: none;
+    }
+
+    .menu {
+        display: initial;
+        font-size: 2.50rem;
+    }
+
+    .tabs {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 567px) and (max-width: 676px) {
+    .padding {
+        padding: 3rem 0px !important;
+    }
+
+    .padding-top {
+        padding-top: 3rem !important;
+    }
+
+    .margin-top {
+        margin-top: 3rem !important;
+    }
+
+    .sec-7 {
+        padding: 0px 0px !important;
+    }
+
+    .marquee {
+        overflow-x: hidden;
+    }
+
+    .br br {
+        display: none;
+    }
+     .menu {
+        display: initial;
+        font-size: 2.50rem;
+    }
+    .tabs {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 566px) {
+    .padding {
+        padding: 1rem 0px !important;
+    }
+
+    .padding-top {
+        padding-top: 1rem !important;
+    }
+
+    .margin-top {
+        margin-top: 1rem !important;
+    }
+
+    .sec-7 {
+        padding: 0px 0px !important;
+    }
+
+    .marquee {
+        overflow-x: hidden;
+    }
+    .br br {
+        display: none;
+    }
+     .menu {
+        display: initial;
+        font-size: 2.50rem;
+    }
+
+    .tabs {
+        display: none;
+    }
+}
